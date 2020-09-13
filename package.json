@@ -3,7 +3,10 @@
   "name": "startbootstrap-clean-blog",
   "version": "5.0.5",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+  "engines": {
+    "node": "11.x"
+             }
   },
   "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
   "keywords": [
@@ -29,7 +32,6 @@
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
   },
   "dependencies": {
-    "node": "10.15.3",
     "@fortawesome/fontawesome-free": "5.8.1",
     "body-parser": "^1.18.3",
     "bootstrap": "4.3.1",
